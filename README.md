@@ -46,6 +46,23 @@ Escriu la següent comanda a la terminal:
 ```bash
 sudo apt install git
 ```
+
+En acabar la instal·lació, en **Ubuntu** executareu aquesta comanda:
+```
+git config pull.rebase false
+```
+### Atenció!
+I tant en **Ubuntu** com en **Windows** executareu aquestes, canviant la paraula *NOM* pel vostre nom o sobrenom i la paraula *EMAIL* pel vostre correu electrònic (preferentment el que heu fet servir pel compte de Github):
+```
+git config --global user.name "NOM"
+git config --global user.email "EMAIL"
+```
+Per exemple:
+```
+git config --global user.name "naimsg16"
+git config --global user.name "naim.saadi@lleidahack.dev"
+```
+
 ## GitHub Desktop, fes servir Git interactivament
 
 <div>
