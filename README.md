@@ -47,9 +47,10 @@ Escriu la següent comanda a la terminal:
 sudo apt install git
 ```
 
-En acabar la instal·lació, en **Ubuntu** executareu aquesta comanda:
+En acabar la instal·lació, en **Ubuntu** executareu aquestes comandes:
 ```
 git config pull.rebase false
+git config --global init.defaultBranch main
 ```
 ### Atenció!
 I tant en **Ubuntu** com en **Windows** executareu aquestes, canviant la paraula *NOM* pel vostre nom o sobrenom i la paraula *EMAIL* pel vostre correu electrònic (preferentment el que heu fet servir pel compte de Github):
