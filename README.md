@@ -56,6 +56,9 @@ git config --global init.defaultBranch main
 I tant en **Ubuntu** com en **Windows** executareu aquestes, canviant la paraula *NOM* pel vostre nom o sobrenom i la paraula *EMAIL* pel vostre correu electrònic (preferentment el que heu fet servir pel compte de Github):
 ```
 git config --global user.name "NOM"
+```
+
+```
 git config --global user.email "EMAIL"
 ```
 Per exemple:
