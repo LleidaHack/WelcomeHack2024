@@ -4,7 +4,7 @@
 
 En aquest arxiu d'aquí, anomenat `README.md` és on trobareu normalment tota la informació que necessiteu sobre un repositori. Nosaltres us deixarem per aquí sota tots els enllaços que necessitareu per aquest taller.
 
-### ❗Atenció, usuaris de **Linux (Ubuntu)** ❗
+### ❗Atenció, usuaris de **Linux** ❗
 Executeu aquestes comandes abans de començar:
 
 ```bash
@@ -22,9 +22,9 @@ sudo apt-get upgrade
 <div/>
 
 
-### Windows, Mac :
+### Windows, Mac
 * [Instal·la aquí Visual Studio Code](https://code.visualstudio.com/download)
-### Ubuntu :
+### Linux
 Escriu la següent comanda a la terminal:
 
 ```bash
@@ -37,25 +37,30 @@ sudo snap install --classic code
     <img src="imgs/git.png" alt="git">
 <div/>
 
-### Windows, Mac:
+### Windows, Mac
 * [Instal·la aquí Git per Windows](https://git-scm.com/download/win)
 * [Instal·la aquí Git per Mac](https://git-scm.com/download/mac)
-### Ubuntu:
+### Linux
 Escriu la següent comanda a la terminal:
 
 ```bash
 sudo apt install git
 ```
 
-En acabar la instal·lació, en **Ubuntu** executareu aquestes comandes:
+En acabar la instal·lació, en **Linux** executareu aquestes comandes:
 ```
 git config pull.rebase false
 git config --global init.defaultBranch main
 ```
-### Atenció!
-I tant en **Ubuntu** com en **Windows** executareu aquestes, canviant la paraula *NOM* pel vostre nom o sobrenom i la paraula *EMAIL* pel vostre correu electrònic (preferentment el que heu fet servir pel compte de Github):
+---
+
+### ❗Atenció!❗
+I tant en **Linux** com en **Windows** com en **Mac** executareu aquestes, canviant la paraula *NOM* pel vostre nom o sobrenom i la paraula *EMAIL* pel vostre correu electrònic (preferentment el que heu fet servir pel compte de Github):
 ```
 git config --global user.name "NOM"
+```
+
+```
 git config --global user.email "EMAIL"
 ```
 Per exemple:
@@ -64,15 +69,17 @@ git config --global user.name "naimsg16"
 git config --global user.name "naim.saadi@lleidahack.dev"
 ```
 
+---
+
 ## GitHub Desktop, fes servir Git interactivament
 
 <div>
     <img src="imgs/githubdesktop.png" alt="ghdesktop">
 <div/>
 
-### Windows, Mac:
+### Windows, Mac
 * [Instal·la aquí GitHub Desktop per Windows/Mac](https://desktop.github.com/download/)
-### Ubuntu:
+### Linux (només Ubuntu)
 Escriu les següents comandes a la terminal:
 
 ```bash
