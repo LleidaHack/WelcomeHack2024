@@ -49,7 +49,7 @@ sudo apt install git
 
 En acabar la instal·lació, en **Linux** executareu aquestes comandes:
 ```
-git config pull.rebase false
+git config --global pull.rebase false
 git config --global init.defaultBranch main
 ```
 ---
